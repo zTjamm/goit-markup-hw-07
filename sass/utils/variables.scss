@@ -1,0 +1,40 @@
+$color-primary: #2196f3;
+$color-black: #212121;
+$color-gray: #757575;
+$color-gray2: #afb1b8;
+$color-white: #ffffff;
+$color-button: #f5f4fa;
+$color-svg: #f5f4fa;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: $color-black;
+  margin: auto;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
