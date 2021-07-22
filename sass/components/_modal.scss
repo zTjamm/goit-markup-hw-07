@@ -38,6 +38,7 @@
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 4px;
+    margin-top: 10px;
   }
   &__form-input {
     width: 100%;
@@ -47,7 +48,6 @@
     border-radius: 4px;
     padding: 12px 0 12px 42px;
     outline: none;
-    margin-bottom: 10px;
   }
   &__form-input:focus-within {
     border-color: $color-primary;
